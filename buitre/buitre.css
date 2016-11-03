@@ -1,0 +1,27 @@
+﻿/*Modifies the Nostromo header of the small navbar*/
+#header {
+    text-align: center;
+    color: #000000;
+    font-weight:700;
+    text-decoration:none;
+}
+
+/*Modifies the links/options of the small navbar*/
+.naveg {
+    padding-left:50px;
+    padding-right:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: #000000;
+    font-weight:700;
+    display: block;    
+}
+
+
+
+/*Modifies the menu button in the small navbar*/
+.mimenu {
+    color: #000000;
+    font-weight:700;
+    display: block;
+}
