@@ -1,0 +1,19 @@
+@media (min-width: 769px) {
+
+body { 
+    padding-top: 70px;
+
+}
+
+#bignav {
+    display:block;
+    
+}
+
+
+#smallnav {
+    display:none;
+}
+
+
+}
