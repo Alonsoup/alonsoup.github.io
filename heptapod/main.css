@@ -1,0 +1,104 @@
+/*Canvas ***********************************************************/
+#canvasDiv {
+  background-color: white;
+  margin: 0;
+
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+/*General************************************************************/
+h1 {
+  text-align: center;
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  background-color: black;
+}
+
+/*Word menu *********************************************************/
+.main {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+#menuColumn1 , #menuColumn2 {
+  background-color: gray;
+  width: 45%;
+  text-align: center;
+  color: black;
+  display: inline-block;  
+}
+
+
+#menuColumn1 img, #menuColumn2 img {
+  width: 50%;
+  height: 100%;
+}
+
+.wordButtons {
+  text-align: center;
+}
+
+.wordButtons button {
+  background-color: #6F869B;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.wordButtons .selected {
+  background-color: #42505D;
+}
+
+/*Console ******************************************************/
+#console {
+  border-style: solid;
+  border-left: 0;
+  border-right: 0;
+  height: 5em;
+  text-align: center;
+  background-color: white;
+}
+
+#console p {
+  display: inline;
+  padding-right: 5em;
+}
+
+/*Publish - Clear - Save Bar ***********************************/
+.buttonBar {
+  background-color: #6F869B;
+  text-align: center;
+}
+
+.buttonBar button {
+  background-color: #6F869B;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0 1em;
+  margin-right: 2em;
+}
+
+.buttonBar .publishSelected {
+  background-color: green;
+}
+
+.buttonBar .clearSelected {
+  background-color: red;
+}
+
+.buttonBar .saveSelected {
+  background-color: blue;
+}

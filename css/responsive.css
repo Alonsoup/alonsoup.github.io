@@ -1,5 +1,5 @@
 @media screen and (min-width: 480px){
-  
+
   /**********************
   Two Column Layout
   ***********************/
@@ -13,44 +13,43 @@
     float:right;
   }
 
-  
-  
+
+
     /**********************
   Page: Portfolio
   ***********************/
   #gallery li {
     width: 28.3333%;
   }
-  
-  
+
+
   /*This resets the clear of the 3n lis to none
   so you can then set the 4n lis to left and not have both*/
   #gallery li:nth-child(2n+1) {
   clear:none;
 }
 
-  
+
   #gallery li:nth-child(3n+1) {
     clear:left;
   }
-  
+
   /**********************
   Page: About
   ***********************/
-  
+
   .profile-photo {
   float: left;
   margin: 0 5% 80px 0;
+  margin-bottom: 5%;
   }
-  
-  
 }
 @media screen and (min-width:660px){
-  
+
   /**********************
   Header
   ***********************/
-  
+
   nav {
     background: none;
     float: right;
@@ -59,27 +58,26 @@
     text-align: right;
     width: 45%;
   }
-  
+
   #logo {
     float:left;
     margin-left:5%;
     text-align:left;
     width: 45%;
   }
-  
+
   h1 {
     font-size:2.5em;
-    
+
   }
-  
+
   h2 {
     font-size:0.85em;
     margin-bottom: 20px;
   }
-  
+
   header {
-    border-bottom:5px solid #599a68;
+    border-bottom:5px solid #3b5998;
     margin-bottom:60px;
   }
-  
 }

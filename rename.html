@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Alonso | Human</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Alonso Serrano</h1>
+        <h2>Human</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <p>
+        One of the people I have learned most from is my friend Jorge Pellicer. He taught me photography, video production, film appreciation and many other things.
+        When he was teaching me about video editing, he told me that the most laborious part was the classification of the material shot during production.
+      </p>
+      <p>
+        If you don't keep a tight order, you'll have to dive in a huge pool of poorly named files every time you want to add a new shot.
+        So Jorge spends hours previewing, right-clicking and renaming his files, adding a rating and information about the type of shot, the subject, wheter there's a tilt, pan, zoom or dolly and other stuff.
+      </p>
+      <p>
+        I feel like I owe him a better solution, so I'm working on a Python program that will make the job a bit easier.
+      </p>
+      <h3>rename.py</h3>
+      <p>
+        First, we'll need a loop that will go through every file in a folder.
+      </p>
+      <p>
+        Then, we need to preview that file so we know what to name it. I think the way to approach this is through an image manipulation library called "Pillow".
+      </p>
+      <p>
+        We need a better way of inputting the new name, so I designed a Tkinter interface that builds the new name through buttons or keyboard shortcuts.
+      </p>
+      <p>
+        Finally, we need to add a stop-light rating: green for good, amber for regular and red for barely usable.
+      </p>
+      <p>
+        You can check the code for this project on <a href="https://github.com/Alonsoup">my Github page</a>.
+      </p>
+      <footer>
+        <a href="https://www.instagram.com/alonso.sea/">
+          <img src="img/instagram-wrap.png" alt="Instagram Logo" class="social-icon">
+        </a>
+        <a href="https://www.facebook.com/alonso.serrano.58">
+          <img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon">
+        </a>
+        <a href="https://github.com/Alonsoup">
+          <img src="img/github-wrap.png" alt="Github Logo" class="social-icon">
+        </a>
+        <a href="https://teamtreehouse.com/alonsoserrano">
+          <img src="img/treehouse_logo.png" alt="Treehouse Logo" class="social-icon">
+        </a>
+        <p>&copy; 2016 Alonso S.A.</p>
+      </footer>
+    </div>
+  </body>
+</html>

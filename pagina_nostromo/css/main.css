@@ -35,7 +35,7 @@ body {
     padding-bottom:10px;
     color: #000000;
     font-weight:700;
-    display: block;    
+    display: block;
 }
 
 /*Modifies only the last link/option of the small navbar*/
@@ -75,7 +75,7 @@ Página: Inicio/Index
 /*Modifies the first h1 and p tags in the main page.*/
 #inicio {
     width: 100%;
-    text-align: center;    
+    text-align: center;
 }
 
 /*****************
@@ -93,19 +93,13 @@ body ul {
 /*****************
 Página: About
 ******************/
-#perfilpreview {
-    display:block;    
-    margin-top: 50px;
-
-}
-
 .foto_perfil {
     width:100%;
     max-width: 500px;
 }
 
 .thumbnails_perfiles a {
-    display:block;    
+    display:block;
     text-decoration:none;
     color:black;
 }
@@ -114,7 +108,7 @@ Página: About
 Página: Blog
 ******************/
 .thumbnails_blog a{
-    display:block;    
+    display:block;
     text-decoration:none;
     color:black;
 }

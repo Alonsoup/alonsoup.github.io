@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Match the colors</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <script src="stopwatch.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="main.css" media="screen" title="no title">
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+    <h1>Match the colors</h1>
+    <p>Using the sliders, try to match the color of the circle with the background.</p>
+    <p>When you think you're there (or very close), click the check button.</p>
+    <button type="button" name="button" id="highScoresButton">View high scores</button>
+    <button type="button" name="button" id="newGameButton">New Game</button>
+    <div id="sketch_holder"></div>
+    <div>
+      <button type="button" name="button" id="checkButton">Check</button>
+    </div>
+    <span id="chronotime">00:00:00</span>
+    <div id="submitScore">
+      <h3>That's a High Score!</h3>
+      <p>Would you like to submit your score? Just write your name and hit submit.</p>
+      <input type="text" name="name" value="Enter your name" id="userName">
+      <button type="button" name="button" id="submitButton">Submit</button>
+    </div>
+    <div id="highScores">
+      <ol id="scoreList">
+      </ol>
+    </div>
+  </body>
+</html>

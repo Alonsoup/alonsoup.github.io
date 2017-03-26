@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Alonso | Human</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Alonso Serrano</h1>
+        <h2>Human</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <p>
+        Arrival is one of my favorite films. It’s the perfect mix of some of my favorite topics: sci-fi, linguistics and tech.
+      </p>
+      <p>
+        In the film, Dr. Louise Banks uses a software running on some kind of military tablet. It contains a list of words in the heptapod language, from which she choses a couple to produce a phrase and show it to the aliens.
+      </p>
+      <img src="http://static5.businessinsider.com/image/5825e140dd089568398b474f-2000/arrival-jeremy-renner-amy-adams.jpg" alt="" />
+      <p>
+        I decided I wanted to build something similar, a fan-made software prop. I used the p5.JS libraries, jQuery and Bootstrap to put it all together.
+      </p>
+      <p>
+        These were some of the most challenging parts:
+      </p>
+      <ul>
+        <li>Getting images on the canvas. I had never encountered the same origin policy. It took a while to figure out I needed to run a local server, but I’m glad I understand that now.</li>
+        <li>Getting images right on the canvas. I started solving problems based on the assumption that there is some sort of rotateImg method, for which I would have to provide degrees as arguments. I was wrong. In P5, one does not simply rotate an image. You rotate the whole mesh. This took some rewiring, but it turned out to be simpler!</li>
+        <li>Integrating the Flickr API. At the beginning, I was going to host the images on my website, but I changed my mind and decided to use the Flickr API. This involved going through the documentation, making dynamic AJAX requests and adapting the existing functions to work with the response. I’m glad I did. Adding words to the glossary is now very easy and I could even get submissions.</li>
+      </ul>
+      <p>
+        These are some things that could be improved:
+      </p>
+      <ul>
+        <li>The words. My Illustrator abilities are very basic. I think a designer could really improve the look of the words and make it closer to the film.</li>
+        <li>Responsive design. I aimed to create the Ipad version, which works for bigger screens too, but not for smaller devices. The layout is very simple, but the size and position of the images in the canvas are tricky.</li>
+      </ul>
+      <p>
+        You can check it out <a href="heptapod/index.html"> here</a>.
+      </p>
+      <footer>
+        <a href="https://www.instagram.com/alonso.sea/">
+          <img src="img/instagram-wrap.png" alt="Instagram Logo" class="social-icon">
+        </a>
+        <a href="https://www.facebook.com/alonso.serrano.58">
+          <img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon">
+        </a>
+        <a href="https://github.com/Alonsoup">
+          <img src="img/github-wrap.png" alt="Github Logo" class="social-icon">
+        </a>
+        <a href="https://teamtreehouse.com/alonsoserrano">
+          <img src="img/treehouse_logo.png" alt="Treehouse Logo" class="social-icon">
+        </a>
+        <p>&copy; 2016 Alonso S.A.</p>
+      </footer>
+    </div>
+  </body>
+</html>

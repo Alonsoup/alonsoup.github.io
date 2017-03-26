@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+
+button {
+    padding: 15px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#newGameButton {
+  width:100%;
+}
+
+#redButton {
+  color: red;
+}
+
+#greenButton {
+  color: green;
+}
+
+#blueButton {
+  color: blue;
+}
+
+#sketch_holder {
+  
+}

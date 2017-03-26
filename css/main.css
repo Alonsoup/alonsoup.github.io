@@ -137,13 +137,15 @@ PAGE: ABOUT
 ***********************/
 
 .profile-photo {
-  transform:rotate(90deg);
+  /*transform:rotate(90deg);*/
   display: block;
+  width: 100%;
   max-width: 300px;
   margin: 0 auto 30px;
   border-radius: 100%;
   padding: 5%; /*Si le quitas el padding, se encima un poco, pero se ve interesante*/
   }
+
 
 
 
@@ -192,13 +194,13 @@ body {
 
 /*Green header*/
 header {
-  background: #6ab47b; /*Green*/
-  border-color: #599a68; /*Darker Green*/
+  background: #8b9dc3; /*Green: 6ab47b*/
+  border-color: #3b5998; /*Darker Green: 599a68*/
 }
 
 /*nav background on mobile devices*/
 nav {
-  background: #599a68;
+  background: #3b5998;
 }
 
 /*Logo text color*/
@@ -208,7 +210,7 @@ h1, h2 {
 
 /*Links*/
 a {
-  color: #6ab47b;
+  color: #8b9dc3;
 }
 
 /*nav link color*/
@@ -218,5 +220,5 @@ nav a, nav a:visited {
 
 /*Selected nav link*/
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #454545;
 }
