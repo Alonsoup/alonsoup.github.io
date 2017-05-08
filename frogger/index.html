@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Frogger</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/libraries/p5.js" type="text/javascript"></script>
+  <script src="js/libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+  <p id="scoreP"></p>
+  <h1>Frogger</h1>
+  <div id="newGameDiv">
+    <div id="submitDiv" class="hide">
+      <p id="finalScoreP">Your score was: </p>
+      <p id="highScoreP" class="hide">Your highest score is: </p>
+      <p id="recordP" class="hide">It's a new personal record!</p>
+      <p id="loginP" class="hide">Log in to submit your score</p>
+      <button type="button" id="submitButton">Submit</button>
+    </div>
+    <button type="button" id="newGameButton" name="button">New Game</button>
+    <button type="button" name="button" id="highScoresButton">View high scores</button>
+    <button id="loginButton"> Log In with Google </button>
+    <button id="logoutButton" class="hide"> Log Out </button>
+  </div>
+  <div id="highScoresDiv">
+    <ol id="scoreList">
+    </ol>
+  </div>
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>
