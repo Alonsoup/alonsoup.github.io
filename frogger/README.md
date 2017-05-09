@@ -1,6 +1,21 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This game is the final project of the Object Oriented JavaScript Course on Udacity. The functionality I added is explained below.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+Controls- To move the player arround, use the arrow keys in your keyboard. Holding the key won't make the character keep moving. You have to tap continuously.
+
+Bugs- The player should avoid contact with the crossing bugs. Touching a bug will decrease the player's lifes by one.
+
+Gems- The objective of the game is to gain points and the way to do that is by collecting gems:
+  Green gems are worth one point.
+  Blue gems are worth five points.
+  Orange gems are worth ten points.
+
+Fish Statue- In order to make gems appear, the player must talk (get close) to the fish statue on the top left corner. After talking to the statue, the player must collect all gems before he can talk to it again and trigger the next batch.
+
+Power-Ups- There are two power-ups in the game. Hearts increase the player's lifes by one and stars increase the amount and value of gems in the next batch. Power-ups pop up on the road after completing three trips to the water.
+  
+
+One of the main features I added is the ranking system. I used Firebase Authentication (with Google as a provider) and its Realtime DataBase. Users can submit their score and they will be instantly added to the ranking. 
+Users can only submit scores that are higher than their current highest score.
